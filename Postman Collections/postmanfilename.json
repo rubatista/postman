@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "29545afe-4066-492e-8a81-cc458ac5213b",
+		"name": "teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "teste youtube",
+			"_postman_id": "91adf8d5-c826-4dff-8ea5-04087202259c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.youtube.com/watch?v=E9nrKitD05g",
+					"protocol": "https",
+					"host": [
+						"www",
+						"youtube",
+						"com"
+					],
+					"path": [
+						"watch"
+					],
+					"query": [
+						{
+							"key": "v",
+							"value": "E9nrKitD05g"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "youtube2",
+			"_postman_id": "86b7b17c-75dc-4afc-b31b-e4cebaebf5b1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://www.youtube.com/"
+			},
+			"response": []
+		}
+	]
+}
