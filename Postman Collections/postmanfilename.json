@@ -6,8 +6,8 @@
 	},
 	"item": [
 		{
-			"name": "teste youtube",
-			"_postman_id": "91adf8d5-c826-4dff-8ea5-04087202259c",
+			"name": "teste",
+			"id": "91adf8d5-c826-4dff-8ea5-04087202259c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -15,7 +15,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://www.youtube.com/watch?v=E9nrKitD05g",
+					"raw": "https://www.youtube.com/watch?v=E9nrKitD05",
 					"protocol": "https",
 					"host": [
 						"www",
@@ -28,7 +28,7 @@
 					"query": [
 						{
 							"key": "v",
-							"value": "E9nrKitD05g"
+							"value": "E9nrKitD05"
 						}
 					]
 				}
@@ -37,7 +37,7 @@
 		},
 		{
 			"name": "youtube2",
-			"_postman_id": "86b7b17c-75dc-4afc-b31b-e4cebaebf5b1",
+			"id": "86b7b17c-75dc-4afc-b31b-e4cebaebf5b1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
