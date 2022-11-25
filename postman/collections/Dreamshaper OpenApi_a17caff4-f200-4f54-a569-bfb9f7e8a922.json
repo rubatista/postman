@@ -6525,7 +6525,7 @@
 							"id": "cb899c8a-68e7-480c-b6f0-5b2149637cd0"
 						},
 						{
-							"name": "791b785809d3538af353ed6fe25e034e",
+							"name": "teste ruben",
 							"id": "ec540a11-40b3-4820-a1a9-9ca141046235",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -6539,7 +6539,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/api/organizations?page=1&per_page=35651635&filter[name]=id nisi ullamco minim&filter[subdomain]=id nisi ullamco minim&filter[locale]=id nisi ullamco minim&sort=created_at",
+									"raw": "{{baseUrl}}/api/organizations?page]=id nisi ullamco minim&filter[subdomain]=sdid nisi ullamco minim&filter[locale]=id nisi ullamco minim&sort=created_at",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -6549,23 +6549,12 @@
 									],
 									"query": [
 										{
-											"key": "page",
-											"value": "1",
-											"description": "Page number"
-										},
-										{
-											"key": "per_page",
-											"value": "35651635",
-											"description": "Number of items per page"
-										},
-										{
-											"key": "filter[name]",
-											"value": "id nisi ullamco minim",
-											"description": "Organization 'name' filter"
+											"key": "page]",
+											"value": "id nisi ullamco minim"
 										},
 										{
 											"key": "filter[subdomain]",
-											"value": "id nisi ullamco minim",
+											"value": "sdid nisi ullamco minim",
 											"description": "Organization 'subdomain' filter"
 										},
 										{
