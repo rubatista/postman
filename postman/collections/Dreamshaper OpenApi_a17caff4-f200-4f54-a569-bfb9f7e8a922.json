@@ -6539,13 +6539,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/api/organizations?page]=id nisi ullamco minim&filter[subdomain]=sdid nisi ullamco minim&filter[locale]=id nisi ullamco minim&sort=created_at",
+									"raw": "{{baseUrl}}/api/organizatios?page]=id nisi ullamco minim&filter[subdomain]=sdid nisi ullamco minim&filter[locale]=id nisi ullamco minim&sort=created_at",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
-										"organizations"
+										"organizatios"
 									],
 									"query": [
 										{
@@ -6629,6 +6629,147 @@
 								},
 								{
 									"id": "3491934e-1a6e-4e54-ba82-c381fdebfb51",
+									"name": "Bad request",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/organizations?page=1&per_page=35651635&filter[name]=id nisi ullamco minim&filter[subdomain]=id nisi ullamco minim&filter[locale]=id nisi ullamco minim&sort=created_at",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"organizations"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "1"
+												},
+												{
+													"key": "per_page",
+													"value": "35651635"
+												},
+												{
+													"key": "filter[name]",
+													"value": "id nisi ullamco minim"
+												},
+												{
+													"key": "filter[subdomain]",
+													"value": "id nisi ullamco minim"
+												},
+												{
+													"key": "filter[locale]",
+													"value": "id nisi ullamco minim"
+												},
+												{
+													"key": "sort",
+													"value": "created_at"
+												}
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n  \"message\": \"Generic error message\"\n}"
+								}
+							]
+						},
+						{
+							"name": "orgs",
+							"id": "c08f7e35-d574-4b20-a2ae-75a6c8ea5341",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/organizatios/1",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"organizatios",
+										"1"
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "90219fd2-3118-4b9d-afaa-a9b967849b01",
+									"name": "Valid request",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/organizations?page=1&per_page=35651635&filter[name]=id nisi ullamco minim&filter[subdomain]=id nisi ullamco minim&filter[locale]=id nisi ullamco minim&sort=created_at",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"organizations"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "1"
+												},
+												{
+													"key": "per_page",
+													"value": "35651635"
+												},
+												{
+													"key": "filter[name]",
+													"value": "id nisi ullamco minim"
+												},
+												{
+													"key": "filter[subdomain]",
+													"value": "id nisi ullamco minim"
+												},
+												{
+													"key": "filter[locale]",
+													"value": "id nisi ullamco minim"
+												},
+												{
+													"key": "sort",
+													"value": "created_at"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n  \"data\": [\n    {\n      \"id\": -68362824,\n      \"name\": \"__dummy_name__\",\n      \"subdomain\": \"__dummy_subdomain__\",\n      \"private_cluster\": false,\n      \"multipath_support\": false,\n      \"lms_integration\": false,\n      \"allow_create_project\": false,\n      \"allow_remove_project\": false,\n      \"allow_member_invite_to_projects\": true,\n      \"allow_member_removal_from_projects\": true,\n      \"allow_self_removal_from_projects\": true,\n      \"enable_email_notifications\": true,\n      \"show_project_wall\": false,\n      \"show_cluster_wall\": true,\n      \"use_email_in_lms_integration\": false,\n      \"project_evaluation\": {\n        \"status\": false\n      },\n      \"modules_status_on_cluster_creation\": \"__dummy_status__\",\n      \"restricted_access\": false,\n      \"block_access_to_students\": false,\n      \"hide_dreamshaper_brand\": true,\n      \"projects_need_resync\": true,\n      \"duplicated_from\": 49990277,\n      \"locale\": \"pt_PT\",\n      \"created_at\": \"2000-01-01 00:00:00\",\n      \"updated_at\": \"2000-01-01 00:00:00\"\n    },\n    {\n      \"id\": 72970110,\n      \"name\": \"__dummy_name__\",\n      \"subdomain\": \"__dummy_subdomain__\",\n      \"private_cluster\": false,\n      \"multipath_support\": true,\n      \"lms_integration\": true,\n      \"allow_create_project\": true,\n      \"allow_remove_project\": false,\n      \"allow_member_invite_to_projects\": false,\n      \"allow_member_removal_from_projects\": false,\n      \"allow_self_removal_from_projects\": false,\n      \"enable_email_notifications\": true,\n      \"show_project_wall\": false,\n      \"show_cluster_wall\": false,\n      \"use_email_in_lms_integration\": true,\n      \"project_evaluation\": {\n        \"status\": true\n      },\n      \"modules_status_on_cluster_creation\": \"__dummy_status__\",\n      \"restricted_access\": false,\n      \"block_access_to_students\": false,\n      \"hide_dreamshaper_brand\": true,\n      \"projects_need_resync\": true,\n      \"duplicated_from\": 64397956,\n      \"locale\": \"pt_PT\",\n      \"created_at\": \"2000-01-01 00:00:00\",\n      \"updated_at\": \"2000-01-01 00:00:00\"\n    }\n  ],\n  \"links\": {\n    \"first\": \"http://server.url/api/current-route?page=1\",\n    \"last\": \"http://server.url/api/current-route?page=10\",\n    \"prev\": null,\n    \"next\": \"http://server.url/api/current-route?page=2\"\n  },\n  \"meta\": {\n    \"current_page\": -16234242,\n    \"from\": 16133847,\n    \"last_page\": 36537614,\n    \"links\": [\n      {\n        \"url\": \"null\",\n        \"label\": \"&laquo; Previous\",\n        \"active\": false\n      },\n      {\n        \"url\": \"http://server.url/api/current-route?page=1\",\n        \"label\": \"1\",\n        \"active\": true\n      },\n      {\n        \"url\": \"null\",\n        \"label\": \"...\",\n        \"active\": false\n      },\n      {\n        \"url\": \"http://server.url/api/current-route?page=10\",\n        \"label\": \"10\",\n        \"active\": false\n      },\n      {\n        \"url\": \"http://server.url/api/current-route?page=2\",\n        \"label\": \"Next &raquo;\",\n        \"active\": false\n      }\n    ],\n    \"path\": \"http://server.url/api/current-route?page=1\",\n    \"per_page\": -18084778,\n    \"to\": -9535093,\n    \"total\": -34101350\n  }\n}"
+								},
+								{
+									"id": "f2a09d06-2786-4699-9f67-d875dfe5eb6e",
 									"name": "Bad request",
 									"originalRequest": {
 										"method": "GET",
